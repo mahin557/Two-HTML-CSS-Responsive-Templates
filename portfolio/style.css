@@ -1,0 +1,373 @@
+@import'assets/css/uti.css';
+:root{
+    --primary:#3DCFD3;
+    --dark:#161616;
+    --pure:#FFFFFF;
+    --ternary:#898989;
+    --light:#F2F2F2;
+
+}
+body{
+    font-family: 'Poppins',sans-serif;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+header{
+    background-color: var(--dark);
+    clip-path: polygon(0 0,100% 0,100% 100%,70% 90%, 0 100%);
+    
+    
+    
+}
+header nav{
+    padding: 2rem 0;
+}
+
+header .links a{
+    color: var(--pure);
+    list-style-type: none;
+    text-decoration: none;
+    transition:all .3s ;
+}
+header .links ul li a:hover{
+    color:var(--primary);
+    
+}
+header .brand .links ul{
+    list-style-type: none;
+    
+}
+header .brand .links ul li{
+    margin-left: 3rem;
+    
+}
+header .brand .links li{
+    float: left;
+}
+header .contact button{
+   padding: 0.8rem 2rem;
+   font-size: 1rem;
+   font-weight: 600;
+   border:2px solid;
+   outline: none;
+   cursor:pointer;
+   background-color: var(--primary);
+   color:black;
+   transition: all .3s ease;
+}
+header .contact button:hover{
+    background-color: transparent;
+    color: var(--primary);
+    border-color: var(--primary);
+}
+.hero img{
+    width:400px;
+}
+.hero .right{
+    color:var(--pure)
+}
+.hero .right h6{
+    font-size: 1.6rem;
+    color:var(--primary);
+    margin:0.5rem;
+}
+.hero .right h1{
+    font-size: 4rem;
+    font-weight: 100;
+    
+    margin-bottom: 2rem;
+}
+.hero .right h1 span{
+color:var(--primary);
+}
+.hero .right p{
+    line-height: 1.9;
+    margin-bottom: 2rem;
+}
+.hero .right button{
+    background-color: transparent;
+    border:2px solid var(--primary);
+    color:var(--primary);
+    padding:0.8rem 2rem ;
+    cursor:pointer;
+}
+.hero .right button:hover{
+    background-color: var(--primary);
+    color:black
+}
+.hero .right{
+    margin-top:-7rem;
+}
+
+.about{
+    margin-top: 6rem;
+    margin-bottom: 6rem;;
+}
+.about .left img{
+    height: 450px;
+}
+.about .right h1{
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+
+}
+.about .right h1 span{
+    color: var(--primary);
+}
+.about .right h3{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.about .right p{
+    color: var(--ternary);
+    line-height: 1.9;
+
+}
+.about .right .icons{
+    display: flex;
+}
+.service{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.service .service-heading{
+   color:black;
+   text-align: center;
+   margin-bottom: 1rem;
+   line-height: 1.5;
+}
+.service .service-heading + p{
+    text-align: center;
+    color:var(--ternary);
+    margin-bottom: 1rem;
+
+}
+.service{
+    background-color: var(--light);
+}
+.service .service-heading span{
+    color:var(--primary);
+}
+.service .write{
+    margin-bottom:5rem;
+}
+.service .wrapper{
+    display: grid;
+    grid-template-columns: auto auto auto;
+     
+    grid-row-gap: 5rem;
+    
+}
+.service .wrapper .card i{
+
+    background-color: var(--primary);
+    font-size: 45px;
+    padding: 1.2rem;
+    position: relative;
+    left: 20px ;
+    position: absolute;
+    top:-3.5rem;
+    left:10rem;
+}
+ .service .wrapper .card{
+    background-color: var(--pure);
+    padding:3rem 2rem;
+    position: relative;
+    text-align: center;
+    width: 400px;
+    transition: all 0.3s;
+    
+}
+.service.wrapper .card h2{
+    margin-top: 20px;
+}
+.service .wrapper .card:hover{
+    background-color: var(--dark);
+    color: white;
+}
+.freelance button{
+    background-color:var(--primary) ;
+    border:2px solid var(--primary);
+    color:white;
+    padding:0.8rem 2rem ;
+    cursor:pointer;
+
+}
+.freelance{
+    
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(assets/img/camera.png);
+    color:white;
+    clip-path: polygon(0 0,100% 0,100% 100%,67% 80%, 0 100%);
+    padding-bottom: 14rem;
+    padding-top: 8rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.freelance h1{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+.freelance p{
+    margin-bottom:2rem;
+}
+.reviews{
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+}
+.reviews h1 span{
+    color: var(--primary);
+}
+.work {
+    text-align: center;
+    background-color: var(--light);
+    padding-top:5rem ;
+}
+.work h1 span{
+    color:var(--primary);
+}
+.work .wrapper{
+    display:grid;
+    grid-template-columns: auto auto auto ;
+    grid-gap:2rem;
+    padding-top: 5rem;
+    padding-bottom: 6rem;
+    
+}
+.work .wrapper img{
+    width: 100%;
+}
+.work .wrapper .card{
+    position: relative;
+
+}
+.work .wrapper .card .overlay{
+    position: absolute;
+    
+    width: 100%;
+    height: 100%;
+    background-color: #3DCFD3;
+    display: flex;
+    justify-content: center;
+    align-items:center ;  
+    cursor: pointer;
+    flex-direction: column;
+    opacity:0;
+    transition: all 0.3s;
+
+
+} 
+.work .wrapper .card:hover .overlay{
+    opacity: 0.7;
+}
+.blog{
+    padding-top: 6rem;
+    text-align: center;
+    background-color: var(--dark);
+    color:white;
+}
+.blog h1 span{
+    color:var(--primary);
+}
+.blog .wrapper{
+    padding-top: 5rem;
+    padding-bottom: 7rem;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:3rem;
+}
+.blog .wrapper .card img{
+    width: 100%;
+    height: 100%;
+}
+.blog .wrapper .card .cardcontent{
+    color: var(--dark);
+    background-color: var(--pure);
+    padding:2rem;
+}
+.blog .wrapper .card .cardcontent h1{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.blog .wrapper .card .cardcontent a{
+    color: var(--dark);
+    text-decoration: none;
+}
+.blog .wrapper .card .cardcontent p{
+    text-align: left;
+    color:var(--ternary);
+    font-size: 0.8rem;
+}
+.contactform{
+    padding-top: 5rem;
+    text-align: center;
+    padding-bottom: 7rem;;
+}
+.contactform .wrapper{
+    padding-top: 20px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.contactform .wrapper .icon{
+    padding-bottom: 3rem;
+    text-align: center;
+}
+.contactform .wrapper .icon i{
+    padding-top: 3rem;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+.contactform .wrapper .icon h6{
+    font-size: 1rem;
+    color:var(--ternary)
+}
+.contactform .input{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    margin-bottom: 2rem;
+
+}
+.contactform .input input{
+    padding:0.5rem;
+    
+    
+}
+.contactform .input2{
+    display:flex;
+    flex-direction: column; 
+    
+}
+.contactform .input2 input{
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+.contactform .input2 textarea{
+    padding:0.5;
+}
+.btn{
+    text-align: left;
+
+}
+.btn button{
+    padding:1rem;
+    background-color: var(--primary);
+    color:var(--dark);
+    border-style: none;
+}
+footer{
+    padding: 5rem 0 7rem;
+    text-align: center;
+    background-color: var(--dark);
+}
+footer img {
+    width:15rem;
+}

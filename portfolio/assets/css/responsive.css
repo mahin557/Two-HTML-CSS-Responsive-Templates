@@ -1,0 +1,262 @@
+@media only screen and (max-width:1400px){
+    .service .wrapper {
+        
+        position: relative;
+        right: 60px;
+        grid-column-gap: 40px;
+}
+.service .write {
+    
+    position: relative;
+    left: 50px;
+}
+}
+@media only screen and (max-width:1340px){
+    .service .wrapper {
+        
+        right: 80px;
+        grid-column-gap: 30px;
+    }
+}
+@media only screen and (max-width:1300px){
+    .service .wrapper .card {
+        width: 350px;
+        left: 90px;
+    }
+    .service .wrapper .card i {
+        
+        left: 9rem;
+}
+}
+@media only screen and (max-width:1200px){
+    .service .wrapper {
+        right: 160px;
+    }
+}
+@media only screen and (max-width:1160px){
+    .service .wrapper {
+        
+        grid-column-gap: 15px;
+    }
+}
+@media only screen and (max-width:1100px){
+    .service .wrapper .card {
+        width: 309px;
+        left: 160px;
+    }
+    .service .wrapper .card i {
+        left: 7rem;
+    }
+}
+@media only screen and (max-width:1000px){
+    .service .wrapper .card {
+        width: 251px;
+        left: 178px;
+    }
+    .service .wrapper .card i {
+        left: 5.5rem;
+    }
+}
+@media only screen and (max-width:994px){
+    .service .wrapper .card {
+        width: 251px;
+        left: 121px;
+    }
+    .service .wrapper .card i {
+        left: 5rem;
+    }
+    .about .right.flex-1 {
+        margin: 19px;
+    }
+    header .links ul {
+        padding-left: 0rem;
+    }
+    header .brand .links ul li {
+        margin-left: 1rem;
+    }
+    
+}
+@media only screen and (max-width:800px){
+    .service .wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .service .wrapper .card {
+        width: 300px;
+        left: 176px;
+    }
+    .service .write {
+        position: relative;
+        left: 14px;
+    }
+    .service .write {
+        margin-bottom: 6rem;
+    }
+    .service .wrapper .card i {
+        left: 7rem;
+    }
+}
+@media only screen and (max-width:768px){
+    .container, .container-sm {
+        max-width: 750px;
+    }
+}
+@media only screen and (max-width:696px){
+    
+    .service .wrapper .card i {
+        left: 4rem;
+    }
+    .service {
+        padding-top: 95px;
+        padding-bottom: 80px;
+    }
+    .brand.flex.items-center {
+        /* flex-basis: auto; */
+        flex: none;
+    }
+    header .brand .links ul li {
+        margin-left: 0.8rem;
+    }
+    .blog .wrapper .card .cardcontent {
+        color: var(--dark);
+        background-color: var(--pure);
+        padding: 0.3rem;
+    }
+    .service .wrapper .card {
+        width: 230px;
+        /* height: 320px; */
+        left: 176px;
+        padding: 1.5rem 0rem;
+    }
+   .about .container{
+       flex-direction: column;
+   }
+   header nav{
+       flex-direction: column;
+   }
+   header .contact button {
+    padding: 0.8rem 3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid;
+    outline: none;
+    cursor: pointer;
+    background-color: var(--primary);
+    color: black;
+    transition: all .3s ease;
+    margin-top: 40px;
+}
+
+header{
+    clip-path: none;
+}
+.hero img {
+    width: 280px;
+}
+.hero .right {
+    margin-top: -1rem;
+}
+.hero .right h1 {
+    font-size: 3rem;
+    font-weight: 100;
+    margin-bottom: 0rem;
+    margin-top: 0.5rem;
+}
+.hero .right p {
+    
+    margin-bottom: 1rem;
+}
+.service .wrapper .card {
+    width: 272px;
+    left: 185px;
+    padding: 2.5rem 0rem;
+}
+.service .wrapper .card i {
+    left: 5.5rem;
+}
+header .contact button {
+   
+    position: relative;
+    left: 15px;
+}
+
+}
+@media only screen and (max-width:696px){
+    .service .wrapper .card {
+        width: 272px;
+        left: 176px;
+        padding: 2.5rem 0rem;
+    }
+    .service .wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .service .wrapper .card {
+        width: 451px;
+        left: 40%;
+        padding: 2.5rem 0rem;
+    }
+    .service .wrapper .card i {
+        left: 10.7rem;
+    }
+}
+@media only screen and (max-width:530px){
+    nav .brand {
+        display: grid;
+        grid-auto-columns: 1fr;
+        text-align: center;
+    }
+    nav .brand .links {
+        margin-top: 30px;
+    }
+    header .contact button {
+    
+        bottom: 10px;
+    }
+    header {
+        padding-bottom: 50px;
+    }
+    .service .wrapper .card {
+        width: 300px;
+        left: 55%;
+        padding: 2.5rem 0rem;
+    }
+    .service .wrapper .card i {
+        left: 6.5rem;
+    }
+    .blog .wrapper .card .cardcontent p {
+        font-size: 0.7rem;
+        line-height: 17px;
+    }
+    header .hero {
+        display: grid;
+    }
+    header .hero .right {
+        margin-top: 20px;
+    }
+  
+}
+@media only screen and (max-width:430px){
+    .contactform .input {
+       
+        grid-template-columns: 1fr;
+        
+    }
+}
+@media only screen and (max-width:400px){
+    .contactform .input {
+       
+        grid-template-columns: 1fr;
+        
+    }
+    .blog .wrapper .card .cardcontent p {
+        font-size: 0.6rem;
+        line-height: 13px;
+    }
+    .hero img {
+        width: 200px;
+    }
+}
+@media only screen and (max-width:360px){
+    
+}
